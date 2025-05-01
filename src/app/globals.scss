@@ -1,0 +1,46 @@
+:root {
+  /* Différentes taille de la font Inter */
+  --font-xs: 20px;
+  --font-sm: 24px;
+  --font-md: 32px;
+  --font-lg: 36px;
+  --font-xl: 64px;
+  /* Dégradés de couleurs pour la font Inter */
+  --gradient-gray: linear-gradient(to right, #989898, #ffffff);
+  --gradient-blue: linear-gradient(to right, #00C8FF, #0054C1);
+}
+
+.text-xs { font-size: var(--font-xs); }
+.text-sm { font-size: var(--font-sm); }
+.text-md { font-size: var(--font-md); }
+.text-lg { font-size: var(--font-lg); }
+.text-xl { font-size: var(--font-xl); }
+
+.text-gradient {
+  background: var(--gradient-gray);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-blue {
+  background: var(--gradient-blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body {
+  font-family: var(--font-inter), sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
