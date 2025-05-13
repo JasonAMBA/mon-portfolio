@@ -3,7 +3,7 @@ import styles from "./Skills.module.scss";
 
 export default function Skills() {
   return (
-    <section className={styles.skillsSection}>
+    <section className={styles.skillsSection} id="skills">
       <h2 className={styles.title}>Mes compétences</h2>
 
       <div className={styles.skillsWrapper}>

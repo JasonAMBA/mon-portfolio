@@ -1,8 +1,8 @@
 .skillsSection {
   max-width: 1500px;
   margin: 0 auto;
-  padding: 0 400px;
-  margin-bottom: 100px;
+  padding: 0 clamp(1rem, 5vw, 400px);
+  margin-bottom: 150px;
   text-align: center;
 }
 
@@ -17,8 +17,13 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 40px;
+  gap: 70px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
 }
 
 .column {
@@ -38,4 +43,14 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 50px;
   justify-items: center;
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  @media (max-width: 480px) {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
 }
