@@ -1,0 +1,75 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  display: flex;
+  flex-direction: column;         // disposition verticale
+  align-items: center;            // centrer horizontalement
+  text-align: center; 
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  width: 90%;
+  padding: 30px;
+  max-width: 700px;
+  background: var(--gradient-gray);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+  font-size: var(--font-xs);
+
+  @media (max-width: 768px) {
+    padding: 15px;
+  }
+
+  h3 {
+    font-size: var(--font-sm);
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  button:hover, a:hover {
+    background: var(--gradient-blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.closeBtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: var(--font-sm);
+  cursor: pointer;
+  background: var(--gradient-gray);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.videoWrapper {
+  margin-top: 20px;
+
+  video {
+    width: 100%;
+    border-radius: 12px;
+
+    @media (max-width: 768px) {
+      max-height: 300px;
+    }
+  }
+}
