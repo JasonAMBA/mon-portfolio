@@ -11,6 +11,9 @@ const inter = Inter({
 export const metadata = {
   title: "Portfolio Jason Amba",
   description: "Voici mon portfolio !",
+  icons: {
+    icon:"https://portfoliojason.s3.eu-north-1.amazonaws.com/Images/Profile/jasonIcon.ico"
+  }
 };
 
 export default function RootLayout({ children }) {
@@ -24,7 +27,7 @@ export default function RootLayout({ children }) {
           playsInline
           className="background-video"
         >
-          <source src="/Videos/Aura.mp4" type="video/mp4" />
+          <source src="https://portfoliojason.s3.eu-north-1.amazonaws.com/Videos/Background+portfolio/Aura.mp4" type="video/mp4" />
         </video>
         {children}
       </body>

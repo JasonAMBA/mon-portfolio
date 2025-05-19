@@ -32,7 +32,7 @@ export default function Navbar() {
         <button onClick={() => scrollTo('aboutMe')}>À propos de moi</button>
         <button onClick={() => scrollTo('skills')}>Compétences</button>
         <button onClick={() => scrollTo('projects')}>Projets</button>
-        <button>Contact</button>
+        <button onClick={() => scrollTo('contactMe')}>Contact</button>
       </nav>
 
       {/* Menu burger icon */}
@@ -48,7 +48,7 @@ export default function Navbar() {
             <button onClick={() => scrollTo('aboutMe')}>À propos de moi</button>
             <button onClick={() => scrollTo('skills')}>Compétences</button>
             <button onClick={() => scrollTo('projects')}>Projets</button>
-            <button>Contact</button>
+            <button onClick={() => scrollTo('contactMe')}>Contact</button>
           </nav>
         </>
       )}

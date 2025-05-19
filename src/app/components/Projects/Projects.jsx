@@ -10,18 +10,18 @@ const projectData = [
     title: 'PSG Squad Project',
     description: "Un mini site dédié à l’effectif du PSG pour la saison 2024-2025.",
     link: 'https://github.com/JasonAMBA/psg-mini-project/tree/dev',
-    video: '/videos/PSG Squad Project.mp4',
-    image: '/projects/PSG Squad Project/Homepage.png',
-    techs: ['/frontend/nextjs.png', '/frontend/motion.png']
+    video: 'https://portfoliojason.s3.eu-north-1.amazonaws.com/Videos/Psg+Squad+Project/PSG+Squad+Project.mp4',
+    image: 'https://portfoliojason.s3.eu-north-1.amazonaws.com/Images/Psg+Squad+Project/Homepage.png',
+    techs: ['https://portfoliojason.s3.eu-north-1.amazonaws.com/Images/Technos/Frontend/Nextjs.png', 'https://portfoliojason.s3.eu-north-1.amazonaws.com/Images/Technos/Frontend/Motion.png']
   },
   {
     id: 2,
     title: '3EldenWord',
     description: 'Un mini jeu pour deviner les boss d’Elden Ring à partir de 3 images.',
     link: 'https://github.com/JasonAMBA/3EldenWord/tree/dev',
-    video: '/videos/3EldenWord.mp4',
-    image: '/projects/3EldenWord/Homepage.png',
-    techs: ['/frontend/vue.png', '/backend/mysql.png', '/backend/node.png', '/backend/Amazon S3.png']
+    video: 'https://portfoliojason.s3.eu-north-1.amazonaws.com/Videos/3EldenWord/3EldenWord.mp4',
+    image: 'https://portfoliojason.s3.eu-north-1.amazonaws.com/Images/3EldenWord/Homepage.png',
+    techs: ['https://portfoliojason.s3.eu-north-1.amazonaws.com/Images/Technos/Frontend/Vue.png', 'https://portfoliojason.s3.eu-north-1.amazonaws.com/Images/Technos/Backend/MySQL.png', 'https://portfoliojason.s3.eu-north-1.amazonaws.com/Images/Technos/Backend/Node.png', 'https://portfoliojason.s3.eu-north-1.amazonaws.com/Images/Technos/Backend/Amazon+S3.png']
   }
 ];
 

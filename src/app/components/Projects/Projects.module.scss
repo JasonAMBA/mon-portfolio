@@ -4,10 +4,6 @@
   padding: 0 clamp(1rem, 5vw, 400px);
   margin-bottom: 150px;
   text-align: center;
-
-  @media (max-width: 768px) {
-    padding: 0 20px;
-  }
 }
 
 .title {
