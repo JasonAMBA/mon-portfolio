@@ -1,5 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.scss";
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from "react-toastify";
 
 // Import de la police Inter Regular
 const inter = Inter({
@@ -30,6 +32,7 @@ export default function RootLayout({ children }) {
           <source src="https://portfoliojason.s3.eu-north-1.amazonaws.com/Videos/Background+portfolio/Aura.mp4" type="video/mp4" />
         </video>
         {children}
+        <ToastContainer position="top-center" autoClose={3000}/>
       </body>
     </html>
   );

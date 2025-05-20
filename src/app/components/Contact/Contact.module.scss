@@ -113,6 +113,12 @@
   box-sizing: border-box;
 }
 
+.recaptchaContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
 @media (max-width: 768px) {
   .row {
     flex-direction: column;
