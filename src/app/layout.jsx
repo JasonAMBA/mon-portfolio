@@ -21,6 +21,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
+      <head>
+        <meta name="google-site-verification" content="st_HGpO0IrAkgySCy33TAkQiWeZBrHyOHyBkRC5WgQg" />
+      </head>
       <body className={inter.variable}>
         <video
           autoPlay
